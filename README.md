@@ -5,3 +5,4 @@ HMM: The HMM uses the hmmlearn python package to learn a Gaussian HMM on stock d
 
 GAN: We used TensorFlow to implement a TimeGAN which can be found in the TimeGAN.py. The file generates the necesary plots that match the report.
 
+VAE: TensorFlow and Keras were used to construct and train a VAE. This implementatino can be found in vae.py. The file generates the necessary plots.
