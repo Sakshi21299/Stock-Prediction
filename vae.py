@@ -181,7 +181,7 @@ if __name__ == '__main__':
 
     axes = fig.add_subplot(111)
     axes.plot(stock_data.nasdaq['raw test']*x_test_exxon.flatten(), 'o-', label="actual")
-    axes.plot(stock_data.nasdaq['raw test']*simulated_metric.flatten()+500, 'x-', label="predicted")
+    axes.plot(stock_data.nasdaq['raw test']*simulated_metric.flatten(), 'x-', label="predicted")
     axes.set_title('Exxon')
 
     plt.xlabel('Date')
